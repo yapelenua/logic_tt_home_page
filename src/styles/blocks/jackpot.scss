@@ -1,0 +1,13 @@
+.jackpot__block {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  gap: 48px;
+
+  @media(max-width: 527px) {
+    text-align: center;
+  }
+}

@@ -1,0 +1,34 @@
+.main__wrapper{
+  display: flex;
+  justify-content: center;
+  font-family: Poppins, sans-serif;
+  flex-direction: column;
+}
+
+.trusted__icons{
+  padding-top: 50px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+
+  img{
+    height: 70px;
+    width: 110px;
+  }
+}
+
+.icons__block{
+  display: flex;
+  gap: 70px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center;
+}
+
+@media (max-width: 940px) {
+  .icons__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

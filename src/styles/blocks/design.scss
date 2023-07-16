@@ -1,0 +1,32 @@
+.design__block{
+  display: flex;
+  justify-content: center;
+  gap: 111px;
+  padding-top: 114px;
+  align-items: center;
+
+  @media(max-width: 900px) {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  &_image{
+    display: flex;
+    justify-content: center;
+
+    img{
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+
+  &_description{
+    h2{
+      padding-bottom: 18px;
+    }
+
+    p{
+      padding-bottom: 40px;
+    }
+  }
+}

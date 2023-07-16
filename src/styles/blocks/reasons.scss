@@ -1,0 +1,25 @@
+.reasons__block{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 140px;
+  text-align: center;
+  padding-bottom: 140px;
+
+  &_items{
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+    padding-top: 92px;
+
+    &-item{
+      h3{
+        padding-bottom: 20px;
+        padding-top: 15px;
+      }
+    }
+  }
+}

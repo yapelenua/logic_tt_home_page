@@ -1,0 +1,27 @@
+.preferences__block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 180px;
+
+  h3{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 58px;
+  }
+
+  &_item-text--blue{
+    color: #2563FF;
+  }
+
+  &_item-text--red{
+    color: #F55767;
+  }
+
+
+  &_item-text--green{
+    color: #40975F;
+  }
+
+}
