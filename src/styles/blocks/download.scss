@@ -1,23 +1,23 @@
-.download__block{
+.download__block {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   padding-top: 112px;
 
-  h1{
+  h1 {
     padding-bottom: 15px;
   }
 
-  p{
+  p {
     padding-bottom: 49px;
   }
 
-  &_image{
+  &_image {
     display: flex;
     justify-content: center;
 
-    img{
+    img {
       max-width: 100%;
       max-height: 100%;
     }

@@ -1,29 +1,29 @@
-.footer__block{
-  background-color: #09142E;
+.footer__block {
+  background-color: #09142e;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 
-  a{
+  a {
     color: #d1d1d1;
   }
 
-  &_image{
+  &_image {
     padding-top: 108px;
     padding-bottom: 33px;
   }
 
-  &_icons{
+  &_icons {
     padding-bottom: 70px;
   }
 
-  &_copiright{
+  &_copiright {
     padding-bottom: 140px;
   }
 }
 
-.footer__nav{
+.footer__nav {
   padding-bottom: 32px;
   display: flex;
   &_links-items {
