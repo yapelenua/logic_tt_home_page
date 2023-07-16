@@ -73,6 +73,7 @@
   height: 554px;
   display: flex;
   flex-direction: column;
+  gap: 15px;
   box-shadow: 0 8px 8px -4px rgb(0, 148, 197);
 
   h3{
@@ -97,16 +98,22 @@
   }
 
   &_benefits_block{
-    height: 320px;
+    height: 220px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
+  .button__block{
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+  }
+
   &-button{
     width: 210px;
-    height: 56px;
+    height: 50px;
     background-color: #2500F9;
     border: none;
     border-radius: 20px;
